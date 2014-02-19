@@ -1,0 +1,58 @@
+[[[[[ /var/www/horoscope ]]]]]
+
+Initializing mongo database... this may take a moment.
+=> Meteor server running on: http://dev2.stad.io
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)=> Meteor server restarted (x4)=> Meteor server restarted (x5)=> Meteor server restarted (x6)=> Meteor server restarted (x7)=> Meteor server restarted (x8)=> Meteor server restarted (x9)=> Meteor server restarted (x10)=> Meteor server restarted (x11)=> Meteor server restarted (x12)=> Meteor server restarted (x13)=> Meteor server restarted (x14)=> Meteor server restarted (x15)=> Meteor server restarted (x16)=> Meteor server restarted (x17)=> Meteor server restarted (x18)=> Meteor server restarted (x19)=> Meteor server restarted (x20)=> Meteor server restarted (x21)=> Meteor server restarted (x22)=> Meteor server restarted (x23)=> Meteor server restarted (x24)=> Meteor server restarted (x25)=> Meteor server restarted (x26)=> Meteor server restarted (x27)=> Meteor server restarted (x28)=> Meteor server restarted (x29)=> Meteor server restarted (x30)=> Meteor server restarted (x31)=> Meteor server restarted (x32)=> Meteor server restarted (x33)=> Meteor server restarted (x34)=> Meteor server restarted (x35)=> Meteor server restarted (x36)=> Meteor server restarted (x37)=> Meteor server restarted (x38)=> Meteor server restarted (x39)=> Meteor server restarted (x40)
+=> Errors prevented startup:
+
+While building the application:
+main.js:4:22: Unexpected token ILLEGAL
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)=> Meteor server restarted (x4)=> Meteor server restarted (x5)=> Meteor server restarted (x6)=> Meteor server restarted (x7)=> Meteor server restarted (x8)=> Meteor server restarted (x9)=> Meteor server restarted (x10)=> Meteor server restarted (x11)=> Meteor server restarted (x12)=> Meteor server restarted (x13)=> Meteor server restarted (x14)=> Meteor server restarted (x15)=> Meteor server restarted (x16)=> Meteor server restarted (x17)=> Meteor server restarted (x18)=> Meteor server restarted (x19)=> Meteor server restarted (x20)=> Meteor server restarted (x21)=> Meteor server restarted (x22)=> Meteor server restarted (x23)=> Meteor server restarted (x24)=> Meteor server restarted (x25)=> Meteor server restarted (x26)=> Meteor server restarted (x27)=> Meteor server restarted (x28)=> Meteor server restarted (x29)=> Meteor server restarted (x30)=> Meteor server restarted (x31)=> Meteor server restarted (x32)=> Meteor server restarted (x33)=> Meteor server restarted (x34)=> Meteor server restarted (x35)=> Meteor server restarted (x36)=> Meteor server restarted (x37)=> Meteor server restarted (x38)=> Meteor server restarted (x39)=> Meteor server restarted (x40)=> Meteor server restarted (x41)=> Meteor server restarted (x42)=> Meteor server restarted (x43)=> Meteor server restarted (x44)=> Meteor server restarted (x45)=> Meteor server restarted (x46)=> Meteor server restarted (x47)=> Meteor server restarted (x48)=> Meteor server restarted (x49)=> Meteor server restarted (x50)=> Meteor server restarted (x51)=> Meteor server restarted (x52)=> Meteor server restarted (x53)=> Meteor server restarted (x54)=> Meteor server restarted (x55)=> Meteor server restarted (x56)=> Meteor server restarted (x57)=> Meteor server restarted (x58)=> Meteor server restarted (x59)=> Meteor server restarted (x60)=> Meteor server restarted (x61)=> Meteor server restarted (x62)=> Meteor server restarted (x63)=> Meteor server restarted (x64)=> Meteor server restarted (x65)=> Meteor server restarted (x66)=> Meteor server restarted (x67)=> Meteor server restarted (x68)=> Meteor server restarted (x69)=> Meteor server restarted (x70)=> Meteor server restarted (x71)=> Meteor server restarted (x72)=> Meteor server restarted (x73)=> Meteor server restarted (x74)=> Meteor server restarted (x75)=> Meteor server restarted (x76)=> Meteor server restarted (x77)=> Meteor server restarted (x78)=> Meteor server restarted (x79)=> Meteor server restarted (x80)=> Meteor server restarted (x81)=> Meteor server restarted (x82)=> Meteor server restarted (x83)=> Meteor server restarted (x84)=> Meteor server restarted (x85)=> Meteor server restarted (x86)=> Meteor server restarted (x87)=> Meteor server restarted (x88)=> Meteor server restarted (x89)=> Meteor server restarted (x90)=> Meteor server restarted (x91)=> Meteor server restarted (x92)=> Meteor server restarted (x93)=> Meteor server restarted (x94)=> Meteor server restarted (x95)=> Meteor server restarted (x96)=> Meteor server restarted (x97)=> Meteor server restarted (x98)
+=> Errors prevented startup:
+
+While building the application:
+main.js:8:22: Unexpected token ILLEGAL
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+main.js:8:22: Unexpected token ILLEGAL
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+main.js:8:22: Unexpected token ILLEGAL
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)=> Meteor server restarted (x4)=> Meteor server restarted (x5)=> Meteor server restarted (x6)=> Meteor server restarted (x7)=> Meteor server restarted (x8)=> Meteor server restarted (x9)=> Meteor server restarted (x10)=> Meteor server restarted (x11)=> Meteor server restarted (x12)=> Meteor server restarted (x13)=> Meteor server restarted (x14)=> Meteor server restarted (x15)=> Meteor server restarted (x16)=> Meteor server restarted (x17)=> Meteor server restarted (x18)=> Meteor server restarted (x19)=> Meteor server restarted (x20)=> Meteor server restarted (x21)=> Meteor server restarted (x22)=> Meteor server restarted (x23)=> Meteor server restarted (x24)=> Meteor server restarted (x25)=> Meteor server restarted (x26)=> Meteor server restarted (x27)=> Meteor server restarted (x28)=> Meteor server restarted (x29)=> Meteor server restarted (x30)=> Meteor server restarted (x31)=> Meteor server restarted (x32)
+=> Errors prevented startup:
+
+While building the application:
+main.js:164:7: Unexpected identifier
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted
+=> Errors prevented startup:
+
+While building the application:
+main.js:205:45: Unexpected token {
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:
+
+While building the application:
+main.js:205:45: Unexpected token {
+
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted=> Meteor server restarted (x2)=> Meteor server restarted (x3)=> Meteor server restarted (x4)=> Meteor server restarted (x5)=> Meteor server restarted (x6)=> Meteor server restarted (x7)=> Meteor server restarted (x8)=> Meteor server restarted (x9)=> Meteor server restarted (x10)=> Meteor server restarted (x11)=> Meteor server restarted (x12)=> Meteor server restarted (x13)=> Meteor server restarted (x14)=> Meteor server restarted (x15)=> Meteor server restarted (x16)=> Meteor server restarted (x17)=> Meteor server restarted (x18)=> Meteor server restarted (x19)=> Meteor server restarted (x20)=> Meteor server restarted (x21)=> Meteor server restarted (x22)=> Meteor server restarted (x23)=> Meteor server restarted (x24)=> Meteor server restarted (x25)=> Meteor server restarted (x26)=> Meteor server restarted (x27)=> Meteor server restarted (x28)=> Meteor server restarted (x29)=> Meteor server restarted (x30)=> Meteor server restarted (x31)=> Meteor server restarted (x32)=> Meteor server restarted (x33)

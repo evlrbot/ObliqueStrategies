@@ -1,0 +1,45 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <script src="/roncioso-Flip-jQuery-5f5d9a4/jquery.flip.min.js"></script>
+  <title>horoscope</title>
+</head>
+
+<body>
+  {{> card2}}
+</body>
+
+<template name="card">
+<div class="card-containter">
+<div class="card">
+<div class="front"><p>Oblique Strategies</p></div>
+<div class="back"><p>Try faking it!</p></div>
+</div><!--/card-->
+</div><!--/cardcontainer-->
+</template>
+
+<template name="card2">
+{{#constant}}
+<a href="javascript:void(0)" >
+<div class="flip-container">
+  <div class="flipper">
+    <table class="front">
+      <tr><td valign="middle">
+      <!-- front content -->
+      <p>Oblique Strategies.</p>
+      </td></tr>
+      </table>
+    <table class="back">
+      <tr><td valign="middle">
+      <!-- back content -->
+      {{>horoscope}}
+      </td></tr>
+      </table>
+    </div>
+</div>
+</a>
+{{/constant}}
+</template>
+
+<template name="horoscope">
+<p>{{horoscope}}</p>
+</template>
