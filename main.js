@@ -212,6 +212,14 @@ if (Meteor.isClient) {
 		var h = horo[Math.floor(Math.random()*horo.length)];
 		Session.set("horoscope",h);
 	    }
+	},
+	'click .flip-container .info' : function(e){
+	    $(".flip-container").toggleClass("hover");
+	      if($(".flip-container").hasClass("hover")) {
+		var h = "Oblique Strategies<br/><br/>Brian Eno<br/>& Peter Schmidt"
+		Session.set("horoscope",h);
+	    }
+	    e.stopImmediatePropagation();
 	}
     }
 
