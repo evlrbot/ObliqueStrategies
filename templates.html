@@ -5,42 +5,30 @@
 </head>
 
 <body>
-  {{> card2}}
+  {{> card}}
 </body>
 
 <template name="card">
-<div class="card-containter">
-<div class="card">
-<div class="front"><p>Oblique Strategies</p></div>
-<div class="back"><p>Try faking it!</p></div>
-</div><!--/card-->
-</div><!--/cardcontainer-->
-</template>
-
-<template name="card2">
-{{#constant}}
-<a href="#" onclick="javascript:function(){return false;}" >
 <div class="flip-container">
   <div class="flipper">
+    <!-- front -->
     <table class="front">
-      <tr><td valign="middle">
-      <!-- front content -->
-      <p>Oblique Strategies.</p>
-      <a href="#" onclick="javascript:function(){return false;}"><div class="info"><i>i</i></div></a>
-      </td></tr>
-      </table>
+      <tr>
+	<td valign="middle">
+	  <p><span class="big">Oblique Strategies</span><br/>by Brian Eno & Peter Schmidt</p>
+      </td>
+      </tr>
+    </table>
+    <!-- back -->
     <table class="back">
-      <tr><td valign="middle">
-      <!-- back content -->
-      {{>horoscope}}
-      </td></tr>
-      </table>
-    </div>
+      <tr>
+	<td valign="middle">{{>card_text}}</td>
+      </tr>
+    </table>
+  </div>
 </div>
-</a>
-{{/constant}}
 </template>
 
-<template name="horoscope">
-<p>{{{horoscope}}}</p>
+<template name="card_text">
+<p>{{{card_text}}}</p>
 </template>
