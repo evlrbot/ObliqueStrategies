@@ -1,10 +1,8 @@
 /* CSS declarations go here */
-body { background-color:black; padding:15px 10px; height:100%; }
-
-.info { position:absolute; bottom:10px; left:0px; right:0px; color:white; font-weight:normal; border:0px solid white; text-align:center; vertical-align:middle; font-size:0.8em; font-family:Helvetica, sans-serfi; }
-.info i { margin-top:3px; position:relative; display:block; font-style:normal; }
-.big { font-size:2.0em; }
-.small { font-size:0.5em; color:#EFEFEF; font-family:Arial; font-weight:100; position:absolute; bottom:10px; left:0px; right:0px; }
+body { background-color:black; padding:15px 10px; height:100%; font-family:Times,serif; }
+.github { position:absolute; right:10px; bottom:0px; }
+.github img { width:50px; }
+.big { font-size:2.0em; -webkit-text-stroke: 0px black; }
 
 .front p, .back p { padding:0px; font-size:30px; text-align:center; margin:5px; font-weight:bold; }
 .front p { color:white; }
