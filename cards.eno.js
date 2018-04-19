@@ -1,4 +1,4 @@
-var strategies = [
+strategies = [
     "(Organic) machinery ",
     "A line has two sides ",
     "A very small object -Its centre ",

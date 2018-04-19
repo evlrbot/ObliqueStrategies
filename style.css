@@ -1,12 +1,11 @@
 /* CSS declarations go here */
-body { background-color:black; padding:15px 10px; height:100%; font-family:Times,serif; }
-.github { position:absolute; right:10px; bottom:0px; }
-.github img { width:50px; }
-.big { font-size:2.0em; -webkit-text-stroke: 0px black; }
+html, body { background-color:black; font-family:Times,serif; height:100%; margin:0px; padding:0px; }
 
-.front p, .back p { padding:0px; font-size:30px; text-align:center; margin:5px; font-weight:bold; }
-.front p { color:white; }
-.back p { color:black; }
+.github { position:absolute; right:5px; bottom:5px; }
+.github img { width:30px; }
+
+.big { font-size:2.0em; }
+a:focus { outline: 0; -webkit-tap-highlight-color:rgba(0,0,0,0); }
 
 /* simple */
 .flip-container {
@@ -14,13 +13,10 @@ body { background-color:black; padding:15px 10px; height:100%; font-family:Times
     -moz-perspective: 1000;
     -ms-perspective: 1000;
     perspective: 1000;
-
     -ms-transform: perspective(1000px);
     -moz-transform: perspective(1000px);
     -moz-transform-style: preserve-3d; 
     -ms-transform-style: preserve-3d; 
-
-    border: 1px solid #ccc;
 }
 
 /* START: Accommodating for IE */
@@ -47,22 +43,18 @@ body { background-color:black; padding:15px 10px; height:100%; font-family:Times
     top:50%;
     margin-top:-150px;
     width:500px;
-    height:300px;
     border:0px solid red; 
 }
 .flipper {
     -webkit-transition: 0.6s;
     -webkit-transform-style: preserve-3d;
     -ms-transition: 0.6s;
-
     -moz-transition: 0.6s;
     -moz-transform: perspective(1000px);
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
-
     transition: 0.6s;
     transform-style: preserve-3d;
-
     position: relative;
     }
 
@@ -71,19 +63,14 @@ body { background-color:black; padding:15px 10px; height:100%; font-family:Times
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
-
     -webkit-transition: 0.6s;
     -webkit-transform-style: preserve-3d;
-    
     -moz-transition: 0.6s;
     -moz-transform-style: preserve-3d;
-    
     -o-transition: 0.6s;
     -o-transform-style: preserve-3d;
-    
     -ms-transition: 0.6s;
     -ms-transform-style: preserve-3d;
-    
     transition: 0.6s;
     transform-style: preserve-3d;
 }
@@ -109,4 +96,33 @@ body { background-color:black; padding:15px 10px; height:100%; font-family:Times
     width:100%;
     height:300px;
     border-radius:25px;
+}
+
+.front p, .back p { padding:0px; font-size:30px; text-align:center; margin:5px; font-weight:bold; }
+.front p { color:white; }
+.back p { color:black; }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      .flip-container {
+	  position:absolute;
+	  left:15px;
+	  top:15px;
+	  bottom:15px;
+	  right:15px;
+	  border:0px solid red; 
+	  margin-left:0px;
+	  margin-top:0px;
+	  width:auto;
+	  height:500px;
+      }      
+      .front, .back {
+	  position:absolute;
+	  width:100%;
+	  height:500px;
+	  border-radius:25px;
+      }
 }

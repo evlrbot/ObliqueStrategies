@@ -14,7 +14,8 @@ if (Meteor.isClient) {
     
     // handle "card" click events
     Template.card.events = {
-	'tap .flip-container, click .flip-container': function() {
+	'click #flip': function(e) {
+	    e.preventDefault();
 	    $(".flip-container").toggleClass("hover");
 	    if($(".flip-container").hasClass("hover")) {
 		Session.set("card", pick(strategies));

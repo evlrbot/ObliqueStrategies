@@ -1,4 +1,4 @@
-var programming_strategies = [
+programming_strategies = [
     "Solve the easiest possible problem in the dumbest possible way.",
     "Write a test for it.",
     "Is there a better name for this thing?",
