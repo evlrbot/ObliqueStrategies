@@ -5,6 +5,8 @@ if (Meteor.isClient) {
     }
     
     // pick the first card
+    //var strategies = programming_strategies;
+    var strategies = eno_strategies;
     Session.set("card", pick(strategies));
     
     // display the current card
